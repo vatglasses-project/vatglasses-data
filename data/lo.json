@@ -203,17 +203,17 @@
       "id": "B2",
       "group": "ACC",
       "owner": [
-        "VCBU",
-        "VCWU",
-        "VCNU",
-        "VCU",
         "VCB",
         "VCBC",
         "VCW",
         "VCWC",
         "VCN",
         "VC",
-        "VCC"
+        "VCC",
+        "VCBU",
+        "VCWU",
+        "VCNU",
+        "VCU"
       ],
       "sectors": [
         {
@@ -456,7 +456,7 @@
     {
       "id": "N2",
       "group": "ACC",
-      "owner": ["VCNU", "VCEU", "VCU", "VCN", "VCE", "VC", "VCC"],
+      "owner": ["VCN", "VCE", "VC", "VCC", "VCNU", "VCEU", "VCU"],
       "sectors": [
         {
           "min": 315,
@@ -965,7 +965,7 @@
     {
       "id": "E2",
       "group": "ACC",
-      "owner": ["VCEU", "VCNU", "VCU", "VCE", "VCN", "VC", "VCC"],
+      "owner": ["VCE", "VCN", "VC", "VCC", "VCEU", "VCNU", "VCU"],
       "sectors": [
         {
           "min": 315,
@@ -2242,16 +2242,16 @@
       "id": "S2",
       "group": "ACC",
       "owner": [
-        "VCSU",
-        "VCBU",
-        "VCEU",
-        "VCU",
         "VCS",
         "VCB",
         "VCBC",
         "VCE",
         "VC",
-        "VCC"
+        "VCC",
+        "VCSU",
+        "VCBU",
+        "VCEU",
+        "VCU"
       ],
       "sectors": [
         {
@@ -2344,16 +2344,16 @@
       "id": "S2",
       "group": "ACC",
       "owner": [
-        "VCSU",
-        "VCBU",
-        "VCEU",
-        "VCU",
         "VCS",
         "VCB",
         "VCBC",
         "VCE",
         "VC",
-        "VCC"
+        "VCC",
+        "VCSU",
+        "VCBU",
+        "VCEU",
+        "VCU"
       ],
       "sectors": [
         {
@@ -3174,17 +3174,17 @@
       "id": "W2",
       "group": "ACC",
       "owner": [
-        "VCWU",
-        "VCSU",
-        "VCBU",
-        "VCU",
         "VCW",
         "VCWC",
         "VCS",
         "VCB",
         "VCBC",
         "VC",
-        "VCC"
+        "VCC",
+        "VCWU",
+        "VCSU",
+        "VCBU",
+        "VCU"
       ],
       "sectors": [
         {
@@ -3208,17 +3208,17 @@
       "id": "W2",
       "group": "ACC",
       "owner": [
-        "VCWU",
-        "VCSU",
-        "VCBU",
-        "VCU",
         "VCW",
         "VCWC",
         "VCS",
         "VCB",
         "VCBC",
         "VC",
-        "VCC"
+        "VCC",
+        "VCWU",
+        "VCSU",
+        "VCBU",
+        "VCU"
       ],
       "sectors": [
         {
@@ -4651,222 +4651,360 @@
     }
   ],
   "groups": {
-    "ACC": { "name": "ACC" },
-    "LOWG": { "name": "Graz" },
-    "LOWI": { "name": "Innsbruck" },
-    "LOWK": { "name": "Klagenfurt" },
-    "LOWL": { "name": "Linz" },
-    "LOWS": { "name": "Salzburg" },
-    "LOWW": { "name": "Wien" },
-    "LOXT": { "name": "Tulln" },
-    "LOXZ": { "name": "Zeltweg" }
+    "ACC": {
+      "name": "ACC"
+    },
+    "LOWG": {
+      "name": "Graz"
+    },
+    "LOWI": {
+      "name": "Innsbruck"
+    },
+    "LOWK": {
+      "name": "Klagenfurt"
+    },
+    "LOWL": {
+      "name": "Linz"
+    },
+    "LOWS": {
+      "name": "Salzburg"
+    },
+    "LOWW": {
+      "name": "Wien"
+    },
+    "LOXT": {
+      "name": "Tulln"
+    },
+    "LOXZ": {
+      "name": "Zeltweg"
+    }
   },
   "positions": {
     "VC": {
-      "colours": [{ "hex": "#DFFF00" }],
+      "colours": [
+        {
+          "hex": "#DFFF00"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "132.600",
       "callsign": "Wien Radar"
     },
     "VCF": {
-      "colours": [{ "hex": "#ffbf00" }],
+      "colours": [
+        {
+          "hex": "#ffbf00"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "133.800",
       "callsign": "Wien Radar"
     },
     "FIC": {
-      "colours": [{ "hex": "#6495ed" }],
+      "colours": [
+        {
+          "hex": "#6495ed"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "124.400",
       "callsign": "Wien Information"
     },
     "VCL": {
-      "colours": [{ "hex": "#ccccff" }],
+      "colours": [
+        {
+          "hex": "#ccccff"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "129.200",
       "callsign": "Wien Radar"
     },
     "VCU": {
-      "colours": [{ "hex": "#ff4f50" }],
+      "colours": [
+        {
+          "hex": "#ff4f50"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "131.350",
       "callsign": "Wien Radar"
     },
     "VCS": {
-      "colours": [{ "hex": "#008080" }],
+      "colours": [
+        {
+          "hex": "#008080"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "122.865",
       "callsign": "Wien Radar"
     },
     "XMIL": {
-      "colours": [{ "hex": "#9FE2BF" }],
+      "colours": [
+        {
+          "hex": "#9FE2BF"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "131.025",
       "callsign": "Wien Radar"
     },
     "VCW": {
-      "colours": [{ "hex": "#c7b192" }],
+      "colours": [
+        {
+          "hex": "#c7b192"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "129.125",
       "callsign": "Wien Radar"
     },
     "VCWC": {
-      "colours": [{ "hex": "#00bfac" }],
+      "colours": [
+        {
+          "hex": "#00bfac"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "132.765",
       "callsign": "Wien Radar"
     },
     "VCN": {
-      "colours": [{ "hex": "#247513" }],
+      "colours": [
+        {
+          "hex": "#247513"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "134.350",
       "callsign": "Wien Radar"
     },
     "VCE": {
-      "colours": [{ "hex": "#8f7aec" }],
+      "colours": [
+        {
+          "hex": "#8f7aec"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "134.440",
       "callsign": "Wien Radar"
     },
     "VCB": {
-      "colours": [{ "hex": "#37fbd2" }],
+      "colours": [
+        {
+          "hex": "#37fbd2"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "132.190",
       "callsign": "Wien Radar"
     },
     "VCBC": {
-      "colours": [{ "hex": "#bf9000" }],
+      "colours": [
+        {
+          "hex": "#bf9000"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "132.950",
       "callsign": "Wien Radar"
     },
     "VCC": {
-      "colours": [{ "hex": "#0047ab" }],
+      "colours": [
+        {
+          "hex": "#0047ab"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "132.160",
       "callsign": "Wien Radar"
     },
     "VCS1": {
-      "colours": [{ "hex": "#aaec7f" }],
+      "colours": [
+        {
+          "hex": "#aaec7f"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "128.700",
       "callsign": "Wien Radar"
     },
     "VCEU": {
-      "colours": [{ "hex": "#999999" }],
+      "colours": [
+        {
+          "hex": "#999999"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "135.635",
       "callsign": "Wien Radar"
     },
     "VCSU": {
-      "colours": [{ "hex": "#ff00ff" }],
+      "colours": [
+        {
+          "hex": "#ff00ff"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "133.965",
       "callsign": "Wien Radar"
     },
     "VCWU": {
-      "colours": [{ "hex": "#d5a6bd" }],
+      "colours": [
+        {
+          "hex": "#d5a6bd"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "129.965",
       "callsign": "Wien Radar"
     },
     "VCBU": {
-      "colours": [{ "hex": "#a64d79" }],
+      "colours": [
+        {
+          "hex": "#a64d79"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "136.390",
       "callsign": "Wien Radar"
     },
     "VCNU": {
-      "colours": [{ "hex": "#741b47" }],
+      "colours": [
+        {
+          "hex": "#741b47"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "CTR",
       "frequency": "119.880",
       "callsign": "Wien Radar"
     },
     "ASL": {
-      "colours": [{ "hex": "#674ea7" }],
+      "colours": [
+        {
+          "hex": "#674ea7"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "APP",
       "frequency": "123.725",
       "callsign": "Wien Radar"
     },
     "AGK": {
-      "colours": [{ "hex": "#741b47" }],
+      "colours": [
+        {
+          "hex": "#741b47"
+        }
+      ],
       "pre": ["LOVV"],
       "type": "APP",
       "frequency": "119.300",
       "callsign": "Wien Radar"
     },
     "AG": {
-      "colours": [{ "hex": "#bf9000" }],
+      "colours": [
+        {
+          "hex": "#bf9000"
+        }
+      ],
       "pre": ["LOWG"],
       "type": "APP",
       "frequency": "119.300",
       "callsign": "Graz Radar"
     },
     "AI": {
-      "colours": [{ "hex": "#1155cc" }],
+      "colours": [
+        {
+          "hex": "#1155cc"
+        }
+      ],
       "pre": ["LOWI"],
       "type": "APP",
       "frequency": "128.975",
       "callsign": "Innsbruck Radar"
     },
     "IEA": {
-      "colours": [{ "hex": "#1c4587" }],
+      "colours": [
+        {
+          "hex": "#1c4587"
+        }
+      ],
       "pre": ["LOWI"],
       "type": "APP",
       "frequency": "119.275",
       "callsign": "Innsbruck Radar"
     },
     "IF": {
-      "colours": [{ "hex": "#9fc5e8" }],
+      "colours": [
+        {
+          "hex": "#9fc5e8"
+        }
+      ],
       "pre": ["LOWI"],
       "type": "APP",
       "frequency": "121.390",
       "callsign": "Innsbruck Arrival"
     },
     "ASI": {
-      "colours": [{ "hex": "#3d85c6" }],
+      "colours": [
+        {
+          "hex": "#3d85c6"
+        }
+      ],
       "pre": ["LOWI"],
       "type": "APP",
       "frequency": "119.275",
       "callsign": "Innsbruck Radar"
     },
     "AK": {
-      "colours": [{ "hex": "#c27ba0" }],
+      "colours": [
+        {
+          "hex": "#c27ba0"
+        }
+      ],
       "pre": ["LOWK"],
       "type": "APP",
       "frequency": "123.325",
       "callsign": "Klagenfurt Radar"
     },
     "AL": {
-      "colours": [{ "hex": "#730a6f" }],
+      "colours": [
+        {
+          "hex": "#730a6f"
+        }
+      ],
       "pre": ["LOWL"],
       "type": "APP",
       "frequency": "125.685",
       "callsign": "Linz Radar"
     },
     "AS": {
-      "colours": [{ "hex": "#ebca98" }],
+      "colours": [
+        {
+          "hex": "#ebca98"
+        }
+      ],
       "pre": ["LOWS"],
       "type": "APP",
       "frequency": "123.725",
@@ -4879,28 +5017,44 @@
       "callsign": "Salzburg Arrival"
     },
     "VB": {
-      "colours": [{ "hex": "#93c47d" }],
+      "colours": [
+        {
+          "hex": "#93c47d"
+        }
+      ],
       "pre": ["LOWW"],
       "type": "APP",
       "frequency": "134.675",
       "callsign": "Wien Radar"
     },
     "VN": {
-      "colours": [{ "hex": "#38761d" }],
+      "colours": [
+        {
+          "hex": "#38761d"
+        }
+      ],
       "pre": ["LOWW"],
       "type": "APP",
       "frequency": "118.775",
       "callsign": "Wien Radar"
     },
     "VP": {
-      "colours": [{ "hex": "#274e13" }],
+      "colours": [
+        {
+          "hex": "#274e13"
+        }
+      ],
       "pre": ["LOWW"],
       "type": "APP",
       "frequency": "129.050",
       "callsign": "Wien Radar"
     },
     "VM": {
-      "colours": [{ "hex": "#6aa84f" }],
+      "colours": [
+        {
+          "hex": "#6aa84f"
+        }
+      ],
       "pre": ["LOWW"],
       "type": "APP",
       "frequency": "125.175",
@@ -4919,7 +5073,11 @@
       "callsign": "Wien Arrival"
     },
     "AT": {
-      "colours": [{ "hex": "#00ff00" }],
+      "colours": [
+        {
+          "hex": "#00ff00"
+        }
+      ],
       "pre": ["LOXT"],
       "type": "APP",
       "frequency": "136.130",
@@ -4932,7 +5090,11 @@
       "callsign": "Tulln PAR"
     },
     "AZ": {
-      "colours": [{ "hex": "#aaaa00" }],
+      "colours": [
+        {
+          "hex": "#aaaa00"
+        }
+      ],
       "pre": ["LOXZ"],
       "type": "APP",
       "frequency": "129.480",
@@ -4945,63 +5107,99 @@
       "callsign": "Zeltweg PAR"
     },
     "TG": {
-      "colours": [{ "hex": "#ff0000" }],
+      "colours": [
+        {
+          "hex": "#ff0000"
+        }
+      ],
       "pre": ["LOWG"],
       "type": "TWR",
       "frequency": "118.200",
       "callsign": "Graz Tower"
     },
     "TI": {
-      "colours": [{ "hex": "#ff0000" }],
+      "colours": [
+        {
+          "hex": "#ff0000"
+        }
+      ],
       "pre": ["LOWI"],
       "type": "TWR",
       "frequency": "120.100",
       "callsign": "Innsbruck Tower"
     },
     "TK": {
-      "colours": [{ "hex": "#ff0000" }],
+      "colours": [
+        {
+          "hex": "#ff0000"
+        }
+      ],
       "pre": ["LOWK"],
       "type": "TWR",
-      "frequency": "118.125",
+      "frequency": "118.100",
       "callsign": "Klagenfurt Tower"
     },
     "TL": {
-      "colours": [{ "hex": "#ff0000" }],
+      "colours": [
+        {
+          "hex": "#ff0000"
+        }
+      ],
       "pre": ["LOWL"],
       "type": "TWR",
       "frequency": "118.800",
       "callsign": "Linz Tower"
     },
     "TS": {
-      "colours": [{ "hex": "#ff0000" }],
+      "colours": [
+        {
+          "hex": "#ff0000"
+        }
+      ],
       "pre": ["LOWS"],
       "type": "TWR",
       "frequency": "118.100",
       "callsign": "Salzburg Tower"
     },
     "TV1": {
-      "colours": [{ "hex": "#ff0000" }],
+      "colours": [
+        {
+          "hex": "#ff0000"
+        }
+      ],
       "pre": ["LOWW"],
       "type": "TWR",
       "frequency": "119.400",
       "callsign": "Wien Tower"
     },
     "TV2": {
-      "colours": [{ "hex": "#ff0000" }],
+      "colours": [
+        {
+          "hex": "#ff0000"
+        }
+      ],
       "pre": ["LOWW"],
       "type": "TWR",
       "frequency": "123.800",
       "callsign": "Wien Tower"
     },
     "TT": {
-      "colours": [{ "hex": "#ff0000" }],
+      "colours": [
+        {
+          "hex": "#ff0000"
+        }
+      ],
       "pre": ["LOXT"],
       "type": "TWR",
       "frequency": "118.905",
       "callsign": "Tulln Tower"
     },
     "TZ": {
-      "colours": [{ "hex": "#ff0000" }],
+      "colours": [
+        {
+          "hex": "#ff0000"
+        }
+      ],
       "pre": ["LOXZ"],
       "type": "TWR",
       "frequency": "135.380",
@@ -5262,37 +5460,106 @@
         }
       ]
     },
-    "LOAA": { "callsign": "Ottenschlag", "coord": [48.417833, 15.216667] },
-    "LOAB": { "callsign": "Dobersberg", "coord": [48.920667, 15.291333] },
-    "LOAD": { "callsign": "Voeltendorf", "coord": [48.157, 15.586333] },
-    "LOAG": { "callsign": "Krems-Langenlois", "coord": [48.441333, 15.634167] },
-    "LOAR": { "callsign": "Altlichtenwarth", "coord": [48.666222, 16.825222] },
-    "LOAS": { "callsign": "Spitzberg", "coord": [48.101333, 16.9345] },
-    "LOAU": { "callsign": "Stockerau", "coord": [48.406, 16.188333] },
-    "LOGF": { "callsign": "Furstenfeld", "coord": [47.0575, 16.084667] },
-    "LOGG": { "callsign": "Punitz-Gussing", "coord": [47.141833, 16.317333] },
-    "LOGI": { "callsign": "Trieben", "coord": [47.489833, 14.491833] },
-    "LOGK": { "callsign": "Kapfenberg", "coord": [47.455, 15.324667] },
-    "LOGL": { "callsign": "Lanzen-Turnau", "coord": [47.554, 15.321667] },
-    "LOGM": { "callsign": "Mariazell", "coord": [47.786333, 15.301] },
-    "LOGO": { "callsign": "Niederoblarn", "coord": [47.474167, 14.005167] },
-    "LOGP": { "callsign": "Pinkafeld", "coord": [47.386167, 16.107167] },
-    "LOGT": { "callsign": "Timmersdorf", "coord": [47.374667, 14.967667] },
+    "LOAA": {
+      "callsign": "Ottenschlag",
+      "coord": [48.417833, 15.216667]
+    },
+    "LOAB": {
+      "callsign": "Dobersberg",
+      "coord": [48.920667, 15.291333]
+    },
+    "LOAD": {
+      "callsign": "Voeltendorf",
+      "coord": [48.157, 15.586333]
+    },
+    "LOAG": {
+      "callsign": "Krems-Langenlois",
+      "coord": [48.441333, 15.634167]
+    },
+    "LOAR": {
+      "callsign": "Altlichtenwarth",
+      "coord": [48.666222, 16.825222]
+    },
+    "LOAS": {
+      "callsign": "Spitzberg",
+      "coord": [48.101333, 16.9345]
+    },
+    "LOAU": {
+      "callsign": "Stockerau",
+      "coord": [48.406, 16.188333]
+    },
+    "LOGF": {
+      "callsign": "Furstenfeld",
+      "coord": [47.0575, 16.084667]
+    },
+    "LOGG": {
+      "callsign": "Punitz-Gussing",
+      "coord": [47.141833, 16.317333]
+    },
+    "LOGI": {
+      "callsign": "Trieben",
+      "coord": [47.489833, 14.491833]
+    },
+    "LOGK": {
+      "callsign": "Kapfenberg",
+      "coord": [47.455, 15.324667]
+    },
+    "LOGL": {
+      "callsign": "Lanzen-Turnau",
+      "coord": [47.554, 15.321667]
+    },
+    "LOGM": {
+      "callsign": "Mariazell",
+      "coord": [47.786333, 15.301]
+    },
+    "LOGO": {
+      "callsign": "Niederoblarn",
+      "coord": [47.474167, 14.005167]
+    },
+    "LOGP": {
+      "callsign": "Pinkafeld",
+      "coord": [47.386167, 16.107167]
+    },
+    "LOGT": {
+      "callsign": "Timmersdorf",
+      "coord": [47.374667, 14.967667]
+    },
     "LOGW": {
       "callsign": "Weiz-Unterfladnitz",
       "coord": [47.169167, 15.659167]
     },
-    "LOIH": { "callsign": "Hohenems-Dornbirn", "coord": [47.384333, 9.7] },
+    "LOIH": {
+      "callsign": "Hohenems-Dornbirn",
+      "coord": [47.384333, 9.7]
+    },
     "LOIK": {
       "callsign": "Kufstein-Langkampfen",
       "coord": [47.558833, 12.1235]
     },
-    "LOIR": { "callsign": "Reutte", "coord": [47.469167, 10.688833] },
-    "LOKF": { "callsign": "Feldkirchen", "coord": [46.705333, 14.073] },
-    "LOKG": { "callsign": "Glainach-Frelach", "coord": [46.526167, 14.325833] },
-    "LOKH": { "callsign": "Friesach", "coord": [46.9235, 14.426333] },
-    "LOKL": { "callsign": "Lienz-Nikolsdorf", "coord": [46.792333, 12.885333] },
-    "LOKM": { "callsign": "Mayerhofen", "coord": [46.972167, 14.369667] },
+    "LOIR": {
+      "callsign": "Reutte",
+      "coord": [47.469167, 10.688833]
+    },
+    "LOKF": {
+      "callsign": "Feldkirchen",
+      "coord": [46.705333, 14.073]
+    },
+    "LOKG": {
+      "callsign": "Glainach-Frelach",
+      "coord": [46.526167, 14.325833]
+    },
+    "LOKH": {
+      "callsign": "Friesach",
+      "coord": [46.9235, 14.426333]
+    },
+    "LOKL": {
+      "callsign": "Lienz-Nikolsdorf",
+      "coord": [46.792333, 12.885333]
+    },
+    "LOKM": {
+      "callsign": "Mayerhofen",
+      "coord": [46.972167, 14.369667]
+    },
     "LOKN": {
       "callsign": "Noetsch im Gailtal",
       "coord": [46.575333, 13.624167]
@@ -5301,24 +5568,69 @@
       "callsign": "St. Donat-Mairist",
       "coord": [46.741278, 14.406111]
     },
-    "LOKW": { "callsign": "Wolfsberg", "coord": [46.817667, 14.8225] },
-    "LOLC": { "callsign": "Scharnstein", "coord": [47.8925, 13.937] },
-    "LOLE": { "callsign": "Eferding", "coord": [48.336667, 13.985] },
-    "LOLF": { "callsign": "Freistadt", "coord": [48.514667, 14.408778] },
+    "LOKW": {
+      "callsign": "Wolfsberg",
+      "coord": [46.817667, 14.8225]
+    },
+    "LOLC": {
+      "callsign": "Scharnstein",
+      "coord": [47.8925, 13.937]
+    },
+    "LOLE": {
+      "callsign": "Eferding",
+      "coord": [48.336667, 13.985]
+    },
+    "LOLF": {
+      "callsign": "Freistadt",
+      "coord": [48.514667, 14.408778]
+    },
     "LOLG": {
       "callsign": "St. Georgen am Ybbsfeld",
       "coord": [48.102167, 14.9505]
     },
-    "LOLH": { "callsign": "HB Hofkirchen", "coord": [48.137167, 14.335833] },
-    "LOLK": { "callsign": "Ried-Kirchheim", "coord": [48.208, 13.341333] },
-    "LOLM": { "callsign": "Micheldorf", "coord": [47.869167, 14.121667] },
-    "LOLO": { "callsign": "Linz-Ost", "coord": [48.299417, 14.334083] },
-    "LOLS": { "callsign": "Scharding-Suben", "coord": [48.402167, 13.442667] },
-    "LOLT": { "callsign": "Seitenstetten", "coord": [48.050667, 14.657667] },
-    "LOLU": { "callsign": "Gmunden", "coord": [47.951, 13.866667] },
-    "LOLW": { "callsign": "Wels", "coord": [48.16667, 14.03306] },
-    "LOSM": { "callsign": "Mauterndorf", "coord": [47.126167, 13.6915] },
-    "LOXA": { "callsign": "Aigen Im Ennstal", "coord": [47.53306, 14.13306] },
-    "LOXL": { "callsign": "Horsching", "coord": [48.23306, 14.18306] }
+    "LOLH": {
+      "callsign": "HB Hofkirchen",
+      "coord": [48.137167, 14.335833]
+    },
+    "LOLK": {
+      "callsign": "Ried-Kirchheim",
+      "coord": [48.208, 13.341333]
+    },
+    "LOLM": {
+      "callsign": "Micheldorf",
+      "coord": [47.869167, 14.121667]
+    },
+    "LOLO": {
+      "callsign": "Linz-Ost",
+      "coord": [48.299417, 14.334083]
+    },
+    "LOLS": {
+      "callsign": "Scharding-Suben",
+      "coord": [48.402167, 13.442667]
+    },
+    "LOLT": {
+      "callsign": "Seitenstetten",
+      "coord": [48.050667, 14.657667]
+    },
+    "LOLU": {
+      "callsign": "Gmunden",
+      "coord": [47.951, 13.866667]
+    },
+    "LOLW": {
+      "callsign": "Wels",
+      "coord": [48.16667, 14.03306]
+    },
+    "LOSM": {
+      "callsign": "Mauterndorf",
+      "coord": [47.126167, 13.6915]
+    },
+    "LOXA": {
+      "callsign": "Aigen Im Ennstal",
+      "coord": [47.53306, 14.13306]
+    },
+    "LOXL": {
+      "callsign": "Horsching",
+      "coord": [48.23306, 14.18306]
+    }
   }
 }
