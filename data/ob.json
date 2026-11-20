@@ -13,7 +13,7 @@
             "sectors": [
                 {
                     "min": 245,
-                    "max": 295,
+                    "max": 294,
                     "points": [
                         [
                             "244508",
@@ -215,7 +215,6 @@
             "group": "CTR",
             "owner": [
                 "BB1",
-                "BBCH",
 				"fss/GULFE",
 				"fss/GULF"
             ],
@@ -1075,6 +1074,7 @@
             "group": "CTR",
             "owner": [
                 "BBCL",
+				"BBCH",
                 "BB1"
             ],
             "sectors": [
@@ -1363,6 +1363,7 @@
             "group": "CTR",
             "owner": [
                 "BBCL",
+				"BBCH",
                 "BB1"
             ],
             "sectors": [
@@ -1407,7 +1408,6 @@
             "group": "CTR",
             "owner": [
                 "BBCH",
-                "BBCL",
                 "BB1",
                 "fss/GULFE",
                 "fss/GULF"
