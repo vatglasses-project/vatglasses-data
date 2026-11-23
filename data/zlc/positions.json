@@ -473,6 +473,17 @@
             }
           ]
         },
+        "OGD": {
+          "callsign": "Ogden Tower",
+          "frequency": "118.700",
+          "pre": ["OGD"],
+          "type": "TWR",
+          "colours": [
+            {
+              "hex": "#0037ef"
+            }
+          ]
+        },
         "PVU": {
           "callsign": "Provo Tower",
           "frequency": "125.300",
