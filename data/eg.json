@@ -14949,8 +14949,8 @@
           "min": 30,
           "points": [
             ["572100","-0023356"],
-            ["570015","-0025056"],
-            ["565433","-0023557"],
+            ["571327","-0024010"],
+            ["565450","-0022800"],
             ["565506","-0021952"],
             ["565514","-0021614"],
             ["565533","-0020635"],
@@ -15176,8 +15176,8 @@
           "min": 35,
           "points": [
             ["572100","-0023356"],
-            ["570015","-0025056"],
-            ["565433","-0023557"],
+            ["571327","-0024010"],
+            ["565450","-0022800"],
             ["565506","-0021952"],
             ["565514","-0021614"],
             ["565533","-0020635"],
@@ -15205,6 +15205,17 @@
             ["571844","-0023431"],
             ["571935","-0023425"],
             ["572100","-0023356"]
+          ]
+        },
+        {
+          "max": 114,
+          "min": 45,
+          "points": [
+            ["571327","-0024010"],
+            ["565450","-0022800"],
+            ["565433","-0023557"],
+            ["570015","-0025056"],
+            ["571327","-0024010"]
           ]
         }
       ]
@@ -29970,6 +29981,7 @@
     "LLN": { "pre": [ "EGLL" ], "type": "APP","frequency": "119.730","callsign": "Heathrow Director" },
     "LLF": { "pre": [ "EGLL" ], "type": "APP","frequency": "120.400","callsign": "Heathrow Director" },
     "LLS": { "pre": [ "EGLL" ], "type": "APP","frequency": "134.980","callsign": "Heathrow Director" },
+    "LLZ": { "pre": [ "EGLL" ], "type": "APP","frequency": "125.625","callsign": "Heathrow Radar" },
     "LLTN": { "pre": [ "EGLL" ], "type": "TWR","frequency": "118.705","callsign": "Heathrow Tower" },
     "LLTS": { "pre": [ "EGLL" ], "type": "TWR","frequency": "118.505","callsign": "Heathrow Tower" },
     "NMR": { "pre": [ "EGNM" ], "type": "APP","frequency": "134.580","callsign": "Leeds Radar" },
@@ -30017,6 +30029,7 @@
     "MCR": { "pre": [ "EGMC" ], "type": "APP","frequency": "128.965","callsign": "Southend Director" },
     "MCL": { "pre": [ "EGMC" ], "type": "APP","frequency": "130.780","callsign": "Southend Radar" },
     "MCT": { "pre": [ "EGMC" ], "type": "TWR","frequency": "127.730","callsign": "Southend Tower" },
+    "STH": { "pre": [ "STHRN" ], "type": "APP","frequency": "134.035","callsign": "Southern Mil" },
     "SSR": { "pre": [ "EGSS" ], "type": "APP","frequency": "120.625","callsign": "Stansted Radar" },
     "ESS": { "pre": [ "ESSEX", "ESX" ], "type": "APP","frequency": "120.625","callsign": "Stansted Radar" },
     "SSF": { "pre": [ "EGSS" ], "type": "APP","frequency": "136.200","callsign": "Stansted Director" },
@@ -30029,7 +30042,6 @@
     "TMS": { "pre": [ "THAMES", "THA" ], "type": "APP","frequency": "132.700","callsign": "Thames Director" },
     "LCR": { "pre": [ "EGLC" ], "type": "APP","frequency": "128.025","callsign": "Thames Director" },
     "LCT": { "pre": [ "EGLC" ], "type": "TWR","frequency": "118.075","callsign": "City Tower" },
-    "LLZ": { "pre": [ "EGLL" ], "type": "APP","frequency": "125.625","callsign": "Heathrow Radar" },
     "NOR": { "pre": [ "EGNO" ], "type": "APP","frequency": "129.530","callsign": "Warton Radar" }
   },
   "callsigns": {
@@ -30066,12 +30078,6 @@
     }
   },
   "airports": {
-    "ESSEX": { "callsign": "Stansted" },
-    "ESX": { "callsign": "Stansted" },
-    "SOLENT": { "callsign": "Solent" },
-    "SOL": { "callsign": "Solent" },
-    "THAMES": { "callsign": "Thames","end": { "APP": { "": "Director" }}},
-    "THA": { "callsign": "Thames","end": { "APP": { "": "Director" }}},
     "EGCC": {
         "callsign": "Manchester",
         "coord": [
@@ -31195,6 +31201,7 @@
         }
       },
       "topdown": [
+        "STH",
         "VVC",
         "VVW",
         "VV"
@@ -31287,6 +31294,7 @@
         }
       },
       "topdown": [
+        "STH",
         "VVSE",
         "VVW",
         "VV"
