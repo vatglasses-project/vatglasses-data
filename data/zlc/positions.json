@@ -484,6 +484,17 @@
             }
           ]
         },
+        "HIF": {
+          "callsign": "Hill Air Force Base Tower",
+          "frequency": "127.150",
+          "pre": ["HIF"],
+          "type": "TWR",
+          "colours": [
+            {
+              "hex": "#708090"
+            }
+          ]
+        },
         "PVU": {
           "callsign": "Provo Tower",
           "frequency": "125.300",
